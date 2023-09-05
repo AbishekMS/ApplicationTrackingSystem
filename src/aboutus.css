@@ -1,0 +1,23 @@
+.about{
+    width: 75rem;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.design{
+    font-family: Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.pic{
+    height: 75%;
+    width: 100%;
+    padding-bottom: 7%;
+}
+.cont{
+    width:75%;
+    height:75%;
+    /* background-color: aqua; */
+    /* align-items: center; */
+}

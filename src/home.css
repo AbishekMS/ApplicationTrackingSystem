@@ -1,0 +1,71 @@
+.card-container {
+    padding-left: 500px;
+    display: flex;
+    max-width: 100%;   /* Space between cards */
+    align-items: center; /* Center the cards vertically */
+    gap: 40px; /* Increased spacing between cards */
+    height: 100vh; /* Make the container full height of the viewport */
+  }
+  #cardRight{
+    padding-left: 50px;
+  }
+  .card {
+    margin-left: 0px;
+    max-height: 1000px;
+    flex: 10; /* Each card takes equal space */
+    max-width: 700px; /* Set your desired card width */
+    border: 5px solid #ccc;
+    border-radius: 10px;
+ 
+    text-align: center;
+    
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:10px 0;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .card-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-link:hover {
+    background-color: #0056b3;
+  }
+  .btn-info
+  {
+    background: transparent;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	display: inline-block;
+	margin-top: 25px;
+	border: 2px solid #fff;
+	transition: background .6s ease-in
+  }
+  

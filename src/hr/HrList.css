@@ -1,0 +1,39 @@
+/* HrList.css */
+/* Style for the whole table */
+.cont{
+    text-align: center;
+    justify-content: center;
+}
+.table {
+    margin-left: 500px;
+    margin-bottom: 50px;
+    border: 1px solid #c0c2c4;
+    margin-top: 20px; /* Add some margin for spacing */
+  }
+  
+  /* Style for table header cells */
+  .table thead th {
+    border: 1px solid #dee2e6;
+    background-color: #343a40; /* Header background color */
+    color: #fff; /* Header text color */
+  }
+  
+  /* Style for table rows */
+  .table tbody tr {
+    border: 1px solid #dee2e6;
+  }
+  
+
+  /* Style for alternating row background color */
+  .table tbody tr:nth-child(even) {
+    background-color: #c3c5c5; /* Alternate row background color */
+  }
+  
+  /* Add some padding to table cells */
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+  .btn.danger:hover{
+    background-color: red;
+  }

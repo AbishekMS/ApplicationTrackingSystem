@@ -1,0 +1,126 @@
+/* slideshow.css */
+
+/* Base styles for the slideshow container */
+.slideshow-container {
+    width: 90%;
+    height: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Styles for the images in the slider */
+  .slideshow-image {
+    width: 100%;
+    height: auto; /* Automatically maintain aspect ratio */
+    max-width: 100%; /* Make the image responsive */
+  }
+  
+  /* Styles for the bullets and navigation arrows */
+  .slideshow-bullets {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slideshow-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .slideshow-bullet.active {
+    background-color: #555;
+  }
+  
+  .slideshow-navs {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .slideshow-nav {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slideshow-nav:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens up to 768px */
+  @media screen and (max-width: 768px) {
+    .slideshow-container {
+      max-width: 100%;
+    }
+  
+    .slideshow-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .slideshow-bullets {
+      bottom: 10px;
+    }
+  
+    .slideshow-bullet {
+      width: 8px;
+      height: 8px;
+      margin: 0 4px;
+    }
+  
+    .slideshow-navs {
+      top: 85%;
+    }
+  
+    .slideshow-nav {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+    }
+  }
+  
+  /* For screens up to 480px (mobile phones) */
+  @media screen and (max-width: 480px) {
+    .slideshow-bullets {
+      bottom: 5px;
+    }
+  
+    .slideshow-bullet {
+      width: 6px;
+      height: 6px;
+      margin: 0 3px;
+    }
+  
+    .slideshow-navs {
+      top: 80%;
+    }
+  
+    .slideshow-nav {
+      width: 25px;
+      height: 25px;
+      font-size: 16px;
+    }
+  }
+  

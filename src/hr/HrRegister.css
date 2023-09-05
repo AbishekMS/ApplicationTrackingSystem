@@ -1,0 +1,160 @@
+.bod{
+  padding-top: 500px;
+  margin-top: 500px;
+}
+.container1{
+    width: 500px; 
+}
+#head{
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHoAtwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMABAYFB//EACoQAAICAQIEBgMAAwAAAAAAAAABAhEDElETITFBBDJCUmFxFJGhI1OB/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwUEBv/EAB4RAQEBAQEAAgMBAAAAAAAAAAABERICE1EDIUEx/9oADAMBAAIRAxEAPwD3yYUySYykdBQzYmoGsB2wNiOQNQFLBZPUawKWaydmsCiYbETCmBRMYRDoBkMhUOiApDIERkAUg0ZIZACjaRkEBKMNQQPhoKZycZf7DPOl62zpy59x1tsFs4/yK9T/AEb8hv1v9Dincdds3PY5o+Ie4y8Q9xyvUdCs3Mgs97FFlvYnK6oFITi/A0ci2JhqlDRQqmhlMYadIdISMh0xhp0h0hE0OmRTJDJCpjoBkggQbIGQUhRrA1BMYDydIzSZPVyBqPoyuHUU0xNoiTUg6xlOoosaCoIRTDrGUnqKqKQyiiWtDLIiY11FYpFEkRUx4zM4uxaJRURjIpGSGLsVVDqiaaHTJhqqSHRNMdMlNOh0TTHTI1pkMhVQxDRHQiodUBjBMQeK0/LBoe7ILxC939N+Qvcv2fbzXn9xbQ92FQe7JLMuz/o6yjDryfRLcOl7i8U3EIuw2l7jJPcnxUDjq6T57Fw6i6UtyiTXU5lme4FnlF25/wDGTmr3I7Y3sUjZww8Vq5RlFv7KrJlfeick/JHdGykWzix5Mvuv7Kpzfrol8uk9uxNlIyZxJzfrY0ItdJUzPK9O6MmOmccVK/MykXJdJE5anp1psayEZPuxrXuMY3roTGTOdNDKt3+yYdOizEb+WYYuvzG5voxk8u7KvgxXmt/BN5qdQhf2z1H5/wDz+mTy7sb/ACd7JrxE/bEfjz9sRjXU+zVPdr6Zqnu/2BZpP0oeGb3xv6Iuz7Lpk+7Noe5bi466Myk+2Pl9hrJ9pxjLs2h9My0Gu8WUST6MzrU8ueMWuxaFro2iiwX1ZSGCPclrU8UIZJpeZnRizXysMMUEvKVjHGjnbHbzLP6ZRk/opGMtwQcV0KxyIxXaSHhGZWKkRU9ykcke5lqYrUtx1F7klOAeIuyJi7FVY8X8nO8vwZZHsOTqOrUl3Mc8Zp+Zf0xOV6eJWBB/HR3LGNwz6+nm/HHCvDobgI7ljCoDpfjjh/HQy8OjuUBljY6an444lgGWGjsWIbhk6a+NxrHQyidfDRtCJ03PCEVRSNlVAdYzOtTzUlYyRVYx1jJ01PKMYlFEosYygTV5JGNFEgqLDTJq4yCBcxkiaMh0ZRHS5E1cKzDUYaY+FGCKKMTKI+k6a44XSjJLYYXnsUG/gyYUnsUWKyWtQl2AvHCykfDruybGua5FFsZY2dqxRQdCM9NT8bkWKuxSMGdNLY3QnTU8JqI6iGzEahoqPcZ6X0RPUbUTF09IOlE9aDqKh9EQ6UJr2CpNk/Z+jJJBbBqA5IINgBYAPnxxvcdYr6seI3c3tZ5hY4UNwlsUQ66GbaTzEdHwFRQ7AguCkagRCGhCourS5Bx+dFH6jNrUiLBZTN5iRUo2NGDn0ZJmTa6MqQ08el1aYjiNPyiroCtQyMi2FK+gqSamlQ6DkfMQi2YY1ihCMwgMUf/Z");
+  background-size: cover
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left3 {
+    left: 0;
+  
+    color:white;
+    background-image: url("https://wallpaperaccess.com/full/4623493.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .right1 {
+    right: 0;
+    background-color:whitesmoke;
+    
+  }
+ 
+  .centered {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  h2{
+    color: #5254dc;
+  }
+  @media screen and (max-width: 768px) {
+    .split {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  }
+ 
+  
+
+/* New styles for the form table */
+.form-table {
+    margin-top: 25px; /* Add some space between the top of the form and the table */
+    padding: 15px;
+    border: 2px solid #eb8585;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(76, 234, 61, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Center the button within the form table */
+  .form-table .center-button {
+    text-align: center;
+  }
+  
+  /* HRRegister.css */
+
+/* Container styles */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #a5a3a3;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 50px;
+  }
+  
+  /* Form input styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  .btn-info {
+    margin-left:10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-info:hover {
+    background-color: #0056b3;
+  }
+ 
+  
+  /* Center the button */
+  .center-button {
+    text-align: center;
+  }
+  
+  /* Additional styles for the select input */
+  .btn-danger {
+    background-color: rgba(255, 17, 0, 0.795);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .btn.danger:hover{
+    background-color: red;
+  }
+  
+
+  
+  
+  .left12 {
+    flex: 1;
+    background-color: #d41e1e;
+  }
+  
+  .right23 {
+    flex: 2;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d0d0;
+  }
+  #but{
+    display: flex;
+  }
+  
+  
